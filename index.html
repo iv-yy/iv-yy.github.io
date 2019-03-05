@@ -156,7 +156,7 @@
         var movieGeometry = new THREE.PlaneGeometry(4.48, 2.52);
         var movieScreen = new THREE.Mesh(movieGeometry, movieMaterial);
         movieScreen.rotation.x = Math.PI / 2;
-
+        movieScreen.rotation.z = Math.PI;
 
         ///// Sprite Maps, map your images here:
         var spriteMap = new THREE.TextureLoader().load("img/sprite4.png");
